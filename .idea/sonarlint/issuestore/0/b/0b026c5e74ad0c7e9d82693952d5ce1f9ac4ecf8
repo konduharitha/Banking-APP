@@ -1,0 +1,17 @@
+
+ˆ	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ôİ‘œ8˜°Ğ«2J$6dbd1a87-9168-46e7-816c-e15d7a01f27c
+§
+java:S1488H"_Immediately return this expression instead of assigning it to the temporary variable "collect".(ôñºıùÿÿÿÿ8š°Ğ«2J$b5b64880-d187-486c-8621-598aeb6aea88
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ™œ»şÿÿÿÿ8œ°Ğ«2J$684578bb-9993-4426-9fc4-3162306e1910
+|
+java:S1854@"9Remove this useless assignment to local variable "saved".(ÎÚ‘ƒ8¹°Ğ«2J$cb8a520f-2a0a-4e0d-b132-10815dc0babd
+m
+java:S1481@"*Remove this unused "saved" local variable.(ÎÚ‘ƒ8¼°Ğ«2J$00ac1617-69dd-4751-8191-2f6463a0f7fb
+•
+java:S6204I"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8½°Ğ«2J$da49acf5-fe29-4837-bb1d-4f44bf43ab39
+“
+java:S1612H"KReplace this lambda with method reference 'AccountMapper::mapToAccountDto'.(ôñºıùÿÿÿÿ8¿°Ğ«2J$273d1e16-7f62-4e70-8002-281a750db0ea
+ƒ
+java:S1854P";Remove this useless assignment to local variable "account".(âÏçÌûÿÿÿÿ8ÓøĞ«2J$42a3e4b5-4c9f-4731-844e-183f63197843
+t
+java:S1481P",Remove this unused "account" local variable.(âÏçÌûÿÿÿÿ8ÔøĞ«2J$cda2417e-0637-4af1-b420-691cc1643ab7
