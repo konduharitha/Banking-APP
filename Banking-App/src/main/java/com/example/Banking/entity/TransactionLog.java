@@ -1,10 +1,7 @@
 package com.example.Banking.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -12,6 +9,7 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "transaction_logs")
@@ -27,6 +25,13 @@ public class TransactionLog {
 
     @Column(name = "transaction_date", nullable = false)
     private LocalDateTime transactionDate;
+
+    @Column(nullable = true)
+    private Double debitAmount;
+
+    @Column(nullable = true)
+    private Double creditAmount;
+
 
 
 }
